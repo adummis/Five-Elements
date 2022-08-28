@@ -141,7 +141,7 @@ public class IngresoegresoApplication {
 
 		System.out.println("");
 		System.out.println("Id Movimiento de Dinero: " + movimientoDinero1.getIdMovimientoDinero());
-		System.out.println("Monto: " + movimientoDinero1.getMonto());
+		System.out.println("Monto: " + "$ " + movimientoDinero1.getMonto());
 		System.out.println("Concepto: " + movimientoDinero1.getConceptoMovimiento());
 		System.out.println("Usuario que realizó el movimiento: " + movimientoDinero1.getUsuarioMovimiento().getNombre() + " " + movimientoDinero1.getUsuarioMovimiento().getApellido());
 		System.out.println("Rol del Usuario: " + movimientoDinero1.getUsuarioMovimiento().getRol().getDescripcion());
@@ -161,7 +161,7 @@ public class IngresoegresoApplication {
 
 		System.out.println("");
 		System.out.println("Id Movimiento de Dinero: " + movimientoDinero2.getIdMovimientoDinero());
-		System.out.println("Monto: " + movimientoDinero2.getMonto());
+		System.out.println("Monto: " + "$ " + movimientoDinero2.getMonto());
 		System.out.println("Concepto: " + movimientoDinero2.getConceptoMovimiento());
 		System.out.println("Usuario que realizó el movimiento: " + movimientoDinero2.getUsuarioMovimiento().getNombre() + " " + movimientoDinero2.getUsuarioMovimiento().getApellido());
 		System.out.println("Rol del Usuario: " + movimientoDinero2.getUsuarioMovimiento().getRol().getDescripcion());
