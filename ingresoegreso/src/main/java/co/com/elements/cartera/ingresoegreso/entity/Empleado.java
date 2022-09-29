@@ -1,5 +1,6 @@
 package co.com.elements.cartera.ingresoegreso.entity;
 
+
 public class Empleado {
    private long idEmpleado;
    private String nombre;

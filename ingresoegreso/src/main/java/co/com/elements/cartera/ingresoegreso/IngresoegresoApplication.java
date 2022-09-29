@@ -171,7 +171,6 @@ public class IngresoegresoApplication {
 		else {
 			System.out.println("Estado: Inactivo");
 		}
-
 	}
 
 }
